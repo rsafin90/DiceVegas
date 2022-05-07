@@ -59,9 +59,9 @@
 				8434585D2826B1F5004CD012 /* AppDelegate.swift */,
 				8434585F2826B1F5004CD012 /* SceneDelegate.swift */,
 				843458612826B1F5004CD012 /* ViewController.swift */,
+				843458682826B1F5004CD012 /* LaunchScreen.storyboard */,
 				843458632826B1F5004CD012 /* Main.storyboard */,
 				843458662826B1F5004CD012 /* Assets.xcassets */,
-				843458682826B1F5004CD012 /* LaunchScreen.storyboard */,
 				8434586B2826B1F5004CD012 /* Info.plist */,
 			);
 			path = DiceVegas;
@@ -304,7 +304,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +332,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
