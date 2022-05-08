@@ -1,3 +1,3 @@
 # DiceVegas
 
-This is a simple petproject "Randomizer" of two dices with the app design and icon
+This is a simple pet-project "Randomizer" of two dices with the app design and icon
