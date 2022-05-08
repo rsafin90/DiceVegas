@@ -16,24 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="p9L-Cp-KYm" userLabel="Background">
-                                <rect key="frame" x="-30" y="0.0" width="474" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="p9L-Cp-KYm" userLabel="Background">
+                                <rect key="frame" x="-91" y="0.0" width="596" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="nDO-BD-5TU">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <rect key="frame" x="109" y="384" width="196" height="128"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="p9L-Cp-KYm" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="9a2-5j-AHy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nDO-BD-5TU" secondAttribute="bottom" constant="350" id="9yN-Rh-sDI"/>
-                            <constraint firstItem="p9L-Cp-KYm" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-30" id="CMJ-p4-Ooz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nDO-BD-5TU" secondAttribute="trailing" constant="87" id="OPy-rx-ZD5"/>
-                            <constraint firstItem="nDO-BD-5TU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="PX1-14-Gv1"/>
-                            <constraint firstItem="nDO-BD-5TU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="fPf-c3-DdI"/>
-                            <constraint firstAttribute="bottom" secondItem="p9L-Cp-KYm" secondAttribute="bottom" id="twC-DQ-Rln"/>
-                            <constraint firstAttribute="trailing" secondItem="p9L-Cp-KYm" secondAttribute="trailing" constant="-30" id="vL9-lg-HKc"/>
+                            <constraint firstItem="nDO-BD-5TU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5rs-la-BGu"/>
+                            <constraint firstItem="p9L-Cp-KYm" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="8ax-yT-7aX"/>
+                            <constraint firstItem="p9L-Cp-KYm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9o0-kj-ij9"/>
+                            <constraint firstAttribute="bottom" secondItem="p9L-Cp-KYm" secondAttribute="bottom" id="jEP-4P-9iJ"/>
+                            <constraint firstItem="nDO-BD-5TU" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="v7J-GJ-4lx"/>
                         </constraints>
                     </view>
                 </viewController>
